@@ -26,7 +26,8 @@ tags:
   - "static-decorator"
   - "what-are-the-drawbacks-of-using-the-decorator-design-pattern"
   - "when-to-use-the-decorator-design-pattern"
-featuredImage: "/images/Decorator-Design-Pattern-in-Modern-C-vishal-chovatiya.png"
+cover:
+    image: /images/Decorator-Design-Pattern-in-Modern-C-vishal-chovatiya.png
 ---
 
 In software engineering, Structural Design Patterns deal with the relationship between object & classes i.e. how object & classes interact or build a relationship in a manner suitable to the situation. The Structural Design Patterns simplify the structure by identifying relationships. In this article of the Structural Design Patterns, we're going to take a look at the not so complex yet subtle design pattern that is Decorator Design Pattern in Modern C++ due to its extensibility & testability. It is also **_known as Wrapper_**.

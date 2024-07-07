@@ -23,7 +23,8 @@ tags:
   - "visitor-pattern-c"
   - "visitor-pattern-double-dispatch"
   - "when-should-i-use-the-visitor-design-pattern"
-featuredImage: "/images/Visitor-Design-Pattern-in-Modern-C-vishal-chovatiya.png"
+cover:
+    image: /images/Visitor-Design-Pattern-in-Modern-C-vishal-chovatiya.png
 ---
 
 In software engineering, Behavioural Design Patterns deal with the assignment of responsibilities between objects. That in turn, make the interaction between the objects easy & loosely coupled. In this article of the design pattern series, we're going to take a look at Visitor Design Pattern in Modern C++ which is also known as a classic technique for recovering lost type information(using Double Dispatch\[TODO\]). Visitor Design Pattern is **_used to perform an operation on a group of similar kind of objects or hierarchy_**. In this article, we will not only see the classical example but also leverage the [std::visit](https://en.cppreference.com/w/cpp/utility/variant/visit) from the standard library to cut-short the implementation time of the Visitor Design Pattern.

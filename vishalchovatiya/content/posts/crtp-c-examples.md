@@ -20,7 +20,8 @@ tags:
   - "modern-c-composite-design-pattern-leveraging-crtp"
   - "solution-till-c17-with-crtp"
   - "static-polymorphism"
-featuredImage: "/images/CRTP-C-Examples.webp"
+cover:
+    image: /images/CRTP-C-Examples.webp
 ---
 
 Curiously Recurring Template Pattern(CRTP) in C++ is definitely a powerful technique & static alternative to virtual functions. But at the same time, learning it may seem a bit weird at first. If you are like me who struggled to grasp anything in one go. Then this article might help you to provide a thought process on where CRTP fits in day-to-day coding. And, if you are an Embedded Programmer, you may run into CRTP more often. Although, `std::variant` + `std::visit` will also help but 90% of the compilers for embedded processors are either not up to date with standard or dumb.

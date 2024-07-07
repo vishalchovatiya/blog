@@ -23,7 +23,8 @@ tags:
   - "to-the-point-context-switching-api-theory"
   - "what-is-coroutine"
   - "why-do-we-need-coroutine"
-featuredImage: "/images/coroutine-in-c.png"
+cover:
+    image: /images/coroutine-in-c.png
 ---
 
 It's been quite a while that I haven't published anything on my blog. But that's due to the job change. I hope you understand that it has never been easy to re-settle in a new environment with new people while maintaining a steep technical learning curve. It takes time to tune yourself accordingly. Anyways, I wrote on "Coroutine in C Language" as a pre-pend to my upcoming post on [C++20 Coroutine](/posts/cpp20-coroutine-under-the-hood/). Today we will see "How Coroutine Works Internally?".

@@ -48,7 +48,8 @@ tags:
   - "why-do-we-need-a-virtual-class"
   - "why-do-we-need-virtual-inheritance-in-c"
   - "why-we-need-a-virtual-class"
-featuredImage: "/images/memory-layout-of-C-objects.png"
+cover:
+    image: /images/memory-layout-of-C-objects.png
 ---
 
 In [PART 1](/posts/part-1-all-about-virtual-keyword-in-cpp-how-virtual-function-works-internally/) of "All About Virtual Keyword in C++" series, we have discussed "How Does Virtual Function Works Internally?". So, in this article, I will discuss "How Does Virtual Base Class Works Internally?". I am iterating the same thing which I have mentioned in the earlier article as well that implementation of a virtual mechanism is purely compiler dependent. So, there is no C++ standard is defined for such dynamic dispatch. Hence, here I am discussing the general approach.

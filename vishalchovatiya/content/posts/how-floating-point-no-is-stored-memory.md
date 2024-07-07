@@ -27,7 +27,8 @@ tags:
   - "where-the-decimal-point-is-stored"
   - "why-do-we-need-nan"
   - "zero-representation-in-computer-memory"
-featuredImage: "/images/how-floating-point-numbers-stored-in-memory.png"
+cover:
+    image: /images/how-floating-point-numbers-stored-in-memory.png
 ---
 
 This article is just a simplification of the IEEE 754 standard. Here, we will see how floating-point no stored in memory, floating-point exceptions/rounding, etc. But if you will want to find more authoritative sources then go for

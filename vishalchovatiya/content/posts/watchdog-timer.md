@@ -20,7 +20,8 @@ tags:
   - "what-is-the-purpose-function-application-of-the-watchdog-timer"
   - "window-watchdog-timer"
   - "wwdt"
-featuredImage: "/images/watchdog-timer-block-diagram.png"
+cover:
+    image: /images/watchdog-timer-block-diagram.png
 ---
 
 In the embedded systems/SoCs, Watchdog Timer(WDT) is the basic, subtle and essential circuit/ic. No matter, how good you write your firmware/software. There are always unexpected situations like your program may stick in an infinite loop, hung somewhere or hardware burn-out/failure. To combat these unexpected situations, we need some circuitry that keeps monitoring the main system/application and in case of unexpected events, it restarts the system. 

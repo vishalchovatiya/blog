@@ -33,7 +33,8 @@ tags:
   - "unique_ptr-in-c"
   - "unique_ptr-tutorial"
   - "unique_ptr-with-example"
-featuredImage: "/images/20-new-features-of-Modern-C-to-use-in-your-project.png"
+cover:
+    image: /images/20-new-features-of-Modern-C-to-use-in-your-project.png
 ---
 
 The smart pointers are a really good mechanism to manage dynamically allocated resources. In this article, we will see unique\_ptr with example in C++11. But we don't discuss standard smart pointers from a library. Rather, we implement our own smart pointer equivalent to it. This will give us an idea of inside working of smart pointers.

@@ -8,7 +8,8 @@ tags:
   - "copy-assignment-operator-return-by-value"
   - "copy-operator-chain-assignment-c"
   - "return-by-pointer"
-featuredImage: "/images/2-wrong-way-to-learn-copy-assignment-operator-in-c.png"
+cover:
+    image: /images/2-wrong-way-to-learn-copy-assignment-operator-in-c.png
 ---
 
 While I was introducing myself to C++, I was confused about the syntax of the copy assignment operator in C++ & some of its use-cases. I have learned those lessons the hard way. And so I have decided to write this article, where we see 2 wrong way to learn copy assignment operator in C++ with example. And we also see why we need it & why its syntax like that only. Although I am not an expert or pro but this what I have learned so far from various sources.

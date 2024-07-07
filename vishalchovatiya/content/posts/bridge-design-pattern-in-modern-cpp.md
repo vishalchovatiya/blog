@@ -25,7 +25,8 @@ tags:
   - "what-are-the-differences-between-strategy-bridge-design-pattern"
   - "what-is-the-practical-use-case-of-bridge-design-pattern"
   - "when-to-use-bridge-design-pattern"
-featuredImage: "/images/Bridge-Design-Pattern-in-Modern-C-vishal-chovatiya.png"
+cover:
+    image: /images/Bridge-Design-Pattern-in-Modern-C-vishal-chovatiya.png
 ---
 
 Bridge Design Pattern is a Structural Design Pattern used **_to decouple a class into two parts – abstraction and it’s implementation_** – so that both can be developed independently. This promotes the loose coupling between class abstraction & its implementation. You get this decoupling by adding one more level of indirection i.e. an interface which acts as a bridge between your original class & functionality. Insulation is another name of Bridge Design Pattern in C++ world.

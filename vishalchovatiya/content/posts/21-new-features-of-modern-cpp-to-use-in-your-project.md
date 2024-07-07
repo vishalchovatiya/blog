@@ -18,7 +18,8 @@ tags:
   - "smart-pointers"
   - "strongly-typed-enums"
   - "strongly-typed-enums-c"
-featuredImage: "/images/20-new-features-of-Modern-C-to-use-in-your-project.png"
+cover:
+    image: /images/20-new-features-of-Modern-C-to-use-in-your-project.png
 ---
 
 So, you came across the Modern C++ & overwhelmed by its features in terms of performance, convenience & code expressiveness. But in a dilemma that how you can spot where you can enforce Modern C++ features in your day to day coding job. No worries, here we will see 21 new features of Modern C++ you can use in your project.

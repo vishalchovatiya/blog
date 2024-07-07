@@ -20,7 +20,8 @@ tags:
   - "flyweight-design-pattern-in-modern-c"
   - "implementing-flyweight-design-pattern-using-boost"
   - "when-to-use-a-flyweight-design-pattern"
-featuredImage: "/images/Flyweight-Design-Pattern-in-Modern-C-vishal-chovatiya.png"
+cover:
+    image: /images/Flyweight-Design-Pattern-in-Modern-C-vishal-chovatiya.png
 ---
 
 Flyweight Design Pattern is a Structural Design Pattern that **_concerned with space optimization_**. It is a technique to minimizes memory footprint by sharing or avoiding redundancy as much as possible with other similar objects. Flyweight Design Pattern in Modern C++ is often used in a situation where object count is higher which uses an unacceptable amount of memory. Often some parts of these objects can be shared & kept in common data structures that can be used by multiple objects.

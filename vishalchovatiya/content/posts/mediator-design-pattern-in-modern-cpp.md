@@ -18,7 +18,8 @@ tags:
   - "mediator-vs-observer-design-pattern"
   - "senders-receivers-patterns"
   - "when-to-use-mediator-pattern"
-featuredImage: "/images/Mediator-Design-Pattern-in-Modern-C-vishal-chovatiya.png"
+cover:
+    image: /images/Mediator-Design-Pattern-in-Modern-C-vishal-chovatiya.png
 ---
 
 In software engineering, Behavioural Design Patterns deal with the assignment of responsibilities between objects & encapsulating behaviour in an object to delegate requests. In this article of the Behavioural Design Patterns, we're going to take a look at Mediator Design Pattern in Modern C++. And the motivation behind the Mediator Design Pattern is **_to provide proper communication between components by letting the components be aware(or unaware also, depending upon use case) of each other's presence or absence in the system_**.

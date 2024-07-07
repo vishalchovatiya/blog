@@ -8,7 +8,8 @@ tags:
   - "semaphore"
   - "semaphore-between-process"
   - "semaphore-example-in-c"
-featuredImage: "/images/Binary-semaphore-example-between-threads-in-C.png"
+cover:
+    image: /images/Binary-semaphore-example-between-threads-in-C.png
 ---
 
 Semaphore is a synchronization mechanism. In more words, semaphores are a technique for coordinating or synchronizing activities in which multiple processes compete for the same resources. There are 2 types of semaphores: [Binary semaphores](/posts/binary-semaphore-example-between-threads-in-c/) & Counting semaphores. 

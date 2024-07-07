@@ -64,7 +64,8 @@ tags:
   - "virtual-copy-constructor"
   - "virtual-copy-constructor-c"
   - "virtual-destructor-in-c"
-featuredImage: "/images/7-Advanced-C-programming-styles-and-idiom-examples-you-should-know-vishal-chovatiya.png"
+cover:
+    image: /images/7-Advanced-C-programming-styles-and-idiom-examples-you-should-know-vishal-chovatiya.png
 ---
 
 So I have started updating myself with Modern C++ a while ago & since my post [21 new features of Modern C++ to use in your project](/posts/21-new-features-of-modern-cpp-to-use-in-your-project/) & [All about lambda function in C++](/posts/learn-lambda-function-in-cpp-with-example/) was popular I decided to write about advance C++ concepts & idioms which I have learned from this [wikibook](https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms) & [course](https://www.udemy.com/course/cpp-in-detail-common-idioms/).

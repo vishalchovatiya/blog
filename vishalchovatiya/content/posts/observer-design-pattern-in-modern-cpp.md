@@ -27,7 +27,8 @@ tags:
   - "subject-observer-design-pattern-c"
   - "use-cases-of-observer-design-pattern"
   - "what-is-observer-design-pattern-in-c"
-featuredImage: "/images/Observer-Design-Pattern-in-Modern-C-vishal-chovatiya.png"
+cover:
+    image: /images/Observer-Design-Pattern-in-Modern-C-vishal-chovatiya.png
 ---
 
 The Observer Design Pattern is a type of Behavioural Design Pattern that use **_to get information when certain events happen_** i.e. basically one component want information about something happening in the other component. And that can a lot of things like a field changes to a particular value or you want to information when the object does a particular thing, etc. Observer Design Pattern in Modern C++ enables you to create subscription mechanism to notify multiple objects about events that happen to the object they're observing.

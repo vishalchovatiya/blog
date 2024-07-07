@@ -21,7 +21,8 @@ tags:
   - "iterator-design-pattern-in-modern-c"
   - "iterator-design-pattern-real-world-example"
   - "what-is-the-purpose-of-iterator-design-pattern"
-featuredImage: "/images/Iterator-Design-Pattern-in-Modern-C-vishal-chovatiya.png"
+cover:
+    image: /images/Iterator-Design-Pattern-in-Modern-C-vishal-chovatiya.png
 ---
 
 Iterator Design Pattern in Modern C++ is a heavily used pattern i.e. **_provides facility to traverse data containers sophistically_**. For simplicity, you can consider a pointer moving across an array, but the real magic comes when you get to the next element of a container, in that case, you need not know anything about how the container is constructed(like sequential(not necessarily be contiguous), associative or hashed). This is handled by the iterator.

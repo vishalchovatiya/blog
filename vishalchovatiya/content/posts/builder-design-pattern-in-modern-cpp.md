@@ -25,7 +25,8 @@ tags:
   - "sophisticated-fluent-builder-design-pattern-example"
   - "when-should-the-builder-design-pattern-be-used"
   - "why-do-we-need-a-builder-class-when-implementing-a-builder-design-pattern"
-featuredImage: "/images/Builder-Design-Pattern-in-Modern-C-vishal-chovatiya.webp"
+cover:
+    image: /images/Builder-Design-Pattern-in-Modern-C-vishal-chovatiya.webp
 ---
 
 In software engineering, Creational Design Patterns deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. The basic or ordinary form of object creation could result in design problems or added complexity to the design. Builder Design Pattern in C++ solves this specific problem by **_separating the construction of a complex object from its representation_**.

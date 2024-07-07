@@ -24,7 +24,8 @@ tags:
   - "what-is-the-difference-between-decorator-adapter-design-pattern"
   - "what-is-the-difference-between-proxy-adapter-design-pattern"
   - "when-to-use-the-adapter-design-pattern"
-featuredImage: "/images/Adapter-Design-Pattern-in-Modern-C-vishal-chovatiya.png"
+cover:
+    image: /images/Adapter-Design-Pattern-in-Modern-C-vishal-chovatiya.png
 ---
 
 In software engineering, Structural Design Patterns deal with the relationship between object & classes i.e. how object & classes interact or build a relationship in a manner suitable to the situation. The structural design patterns simplify the structure by identifying relationships. In this article of the Structural Design Patterns, we're going to take a look at Adapter Design Pattern in Modern C++ which **_used to convert the interface of an existing class into another interface that client/API-user expect_**. Adapter Design Pattern makes classes work together that could not otherwise because of incompatible interfaces.

@@ -72,7 +72,8 @@ tags:
   - "sizeof-parameter-pack"
   - "template-typename-t"
   - "variadic-templates-c-example"
-featuredImage: "/images/Cpp-Template-Vishal-Chovatiya.webp"
+cover:
+    image: /images/Cpp-Template-Vishal-Chovatiya.webp
 ---
 
 I know, it’s been a while since the last time I published something newbies-friendly on my blog. The main reason is that most of my readers are either experienced devs or from C background having modest C++ encounter. But while programming in C++ you need a completely different mindset as both C & C++ belongs to different programming paradigm. And I always strive to show them a better way of doing things in C++. Anyway, I found the topic which is lengthy, reasonably complex(at least it was for me), newbies-friendly as well as energizing for experienced folks(if [Modern C++](/posts/21-new-features-of-modern-cpp-to-use-in-your-project/) jargons, rules & features added) i.e. C++ Template.

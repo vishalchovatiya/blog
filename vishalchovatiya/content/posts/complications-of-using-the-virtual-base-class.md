@@ -8,7 +8,8 @@ tags:
   - "double-pointer-hack"
   - "downcasting"
   - "pointer-equivalence"
-featuredImage: "/images/memory-layout-of-C-objects.png"
+cover:
+    image: /images/memory-layout-of-C-objects.png
 ---
 
 In the previous article about [How Does Virtual Base Class Works Internally?](/posts/part-2-all-about-virtual-keyword-in-cpp-how-virtual-class-works-internally/) we have seen address resolution of virtual base class & why it's needed. But I have not discussed Complications of Using the Virtual Base Class. Which we will see in this article. This is going to be a bit complex & clumsy then learning the internal working of the virtual base class. But if you are not tired, then read forward.

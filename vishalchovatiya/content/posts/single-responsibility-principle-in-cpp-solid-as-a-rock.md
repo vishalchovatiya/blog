@@ -25,7 +25,8 @@ tags:
   - "solution-single-responsibility-principle-example-in-c"
   - "srp-solid"
   - "yardstick-to-craft-srp-friendly-software-in-c"
-featuredImage: "/images/Single-Responsibility-Principle-in-C-SOLID-as-a-Rock-vishal-chovatiya.webp"
+cover:
+    image: /images/Single-Responsibility-Principle-in-C-SOLID-as-a-Rock-vishal-chovatiya.webp
 ---
 
 This article is the first part of a five-part series about SOLID as Rock design principle series. The SOLID design principles focus on developing software that is easy to maintainable, reusable & extendable. In this article, we will see an example of the **S**ingle **R**esponsibility **P**rinciple in C++ along with its benefits & generic guideline.

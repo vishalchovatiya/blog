@@ -27,7 +27,8 @@ tags:
   - "what-is-not-design-pattern"
   - "why-do-we-need-design-patterns"
   - "why-you-should-learn-design-patterns"
-featuredImage: "/images/What-is-Design-Pattern-C-Vishal-Chovatiya-Mind-Map-1536x861-compressed.webp"
+cover:
+    image: /images/What-is-Design-Pattern-C-Vishal-Chovatiya-Mind-Map-1536x861-compressed.webp
 ---
 
 After hitting a certain level of experience & spending quite enough time in the industry, I have realised the importance of designing/architecting system & software. So I have started looking into system/software design & got to know nothing can better start than a Design Pattern. And the first thing I have done is googling "What is Design Pattern?" Hence got the idea of this article.

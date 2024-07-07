@@ -11,7 +11,8 @@ tags:
   - "reinterpret_cast"
   - "static_cast"
   - "why-do-we-need-typecasting"
-featuredImage: "/images/C-type-casting-with-example-for-C-developers.png"
+cover:
+    image: /images/C-type-casting-with-example-for-C-developers.png
 ---
 
 The typecasting is the feature which makes C++ more type-safe, robust & may convince you to use it over C. But this is also a more underrated topic when you are a newbie or moving from C background. Hence, I come up with an article on it. Here, we will not only see the C++ type casting with example but we will also cover [Why do we need typecasting?](#Why-do-we-need-typecasting) & [C++ type casting cheat codes for C developers](#Cheat-code-for-C-developers-moving-to-C++-on-type-casting) to remember & employ it easily. Although I am not an expert but this is what I have learned so far from various sources & 5+ yrs of industry experience.

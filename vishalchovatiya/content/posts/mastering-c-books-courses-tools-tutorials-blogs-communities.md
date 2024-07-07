@@ -25,7 +25,8 @@ tags:
   - "seeing-things-through-c-compiler-perspective"
   - "some-of-the-best-c-websites"
   - "support-of-boost-library"
-featuredImage: "/images/Mastering-C.webp"
+cover:
+    image: /images/Mastering-C.webp
 ---
 
 Do not get carried away with tittle Mastering C++. This is a never-ending journey. Because [ISOCPP](https://isocpp.org/) is releasing the baby elephants every three years. With the standard covering almost 1500 pages currently, C++ is not the simplest language to learn and master. I have spent quite enough time in the industry. But still feel imposter sometimes. It's been quite a while I was thinking of sharing my [Modern C++](/posts/21-new-features-of-modern-cpp-to-use-in-your-project/) journey. Although, I am sharing the knowledge piece-by-piece through such articles. But, there are other things as well which helped me through this journey like online tools, books, courses, blogs, etc. So, following is the list of such items in an unordered way.

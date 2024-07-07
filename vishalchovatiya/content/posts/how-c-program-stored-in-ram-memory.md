@@ -10,7 +10,8 @@ tags:
   - "stack-segment"
   - "text-segment"
   - "unmapped-or-reserved-segment"
-featuredImage: "/images/How-C-program-stored-in-RAM-memory.png"
+cover:
+    image: /images/How-C-program-stored-in-RAM-memory.png
 ---
 
 When you run any C-program, its executable image loaded into RAM of computer in an organized manner which called process address space or memory layout of C program. Here I have tried to show you the same thing in two parts . In the 1st part i.e. "Overview", we will see segment-wise overview & in 2nd part i.e. "Example", we'll see How C program stored in RAM memory? with example.

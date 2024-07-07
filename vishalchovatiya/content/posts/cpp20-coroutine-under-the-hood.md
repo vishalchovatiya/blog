@@ -26,7 +26,8 @@ tags:
   - "what-is-coroutine-in-general"
   - "why-do-you-even-need-coroutine"
   - "yielding-a-value-from-c-coroutine"
-featuredImage: "/images/C20-Coroutine.png"
+cover:
+    image: /images/C20-Coroutine.png
 ---
 
 A coroutine is one of the major feature introduced with the C++20 standard apart from [Module](https://en.cppreference.com/w/cpp/language/modules), [Ranges](https://en.cppreference.com/w/cpp/ranges) & [Concept](https://en.cppreference.com/w/cpp/concepts). And you see how happy I am to unfold it. I already set the baseline on this topic with my previous article that [Coroutine in C Language](/posts/coroutine-in-c-language/), where we saw, how suspension-resumption of execution works! With this article "C++20 Coroutine: Under The Hood", we will see how compiler creates magic & standard library helps it with basic infrastructure making C++20 coroutine more sophisticated(yet complex) & scalable/customizable.

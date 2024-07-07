@@ -60,7 +60,8 @@ tags:
   - "when-should-you-use-the-singleton-design-pattern"
   - "why-singleton-design-pattern-in-c"
   - "why-we-use-singleton-design-pattern-in-c"
-featuredImage: "/images/Singleton-Design-Pattern-in-Modern-C-vishal-chovatiya.png"
+cover:
+    image: /images/Singleton-Design-Pattern-in-Modern-C-vishal-chovatiya.png
 ---
 
 In software engineering, Creational Design Patterns deal with object creation mechanisms, i.e. try to create objects in a manner suitable to the situation. The basic or ordinary form of object creation could result in design problems or added complexity to the design. In this article of the Creational Design Patterns, we're going to take a look at the much-hated & commonly asked design pattern in a programming interview. That is Singleton Design Pattern in Modern C++ which criticizes for its extensibility & testability. I will also cover the Multiton Design Pattern which quite contrary to Singleton.

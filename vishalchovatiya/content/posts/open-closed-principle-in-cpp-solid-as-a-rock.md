@@ -22,7 +22,8 @@ tags:
   - "software-open-closed-princip1"
   - "xamples-open-closed-principle-in-c1"
   - "yardstick-to-craft-open-closed-principle-friendly-software-in-c"
-featuredImage: "/images/Open-Closed-Principle-in-C-SOLID-as-a-Rock-vishal-chovatiya.webp"
+cover:
+    image: /images/Open-Closed-Principle-in-C-SOLID-as-a-Rock-vishal-chovatiya.webp
 ---
 
 This is the second part of a five-part article series about SOLID as Rock design principle. The SOLID design principles, when combined together, make it easy for a programmer to craft software that is easy to maintain, reuse & extend. **O**pen-**C**losed **P**rinciple(OCP) is the second principle in this series which I will discuss here with minimalistic example in [Modern C++](/posts/21-new-features-of-modern-cpp-to-use-in-your-project/) along with its benefits & generic guideline.

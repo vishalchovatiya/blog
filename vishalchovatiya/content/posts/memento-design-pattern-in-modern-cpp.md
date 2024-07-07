@@ -16,7 +16,8 @@ tags:
   - "memento-design-pattern-in-modern-c"
   - "memento-in-c"
   - "memento-pattern-encapsulation"
-featuredImage: "/images/Memento-Design-Pattern-in-Modern-C-vishal-chovatiya.png"
+cover:
+    image: /images/Memento-Design-Pattern-in-Modern-C-vishal-chovatiya.png
 ---
 
 Memento Design Pattern in Modern C++ is a very straight forward Behavioural Design Pattern. The motivation behind using the Memento Design Pattern is **_to keep some sort of token which then allows you to restore an object to a particular state_**. This is particularly useful if you have a system with medieval components i.e. an object or indeed a set of objects goes through a set of changes.

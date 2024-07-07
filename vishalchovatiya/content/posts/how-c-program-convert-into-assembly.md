@@ -14,7 +14,8 @@ tags:
   - "how-you-can-increase-stack-frame-size"
   - "return-value-from-function-in-c"
   - "x86-special-function-registers"
-featuredImage: "/images/How-C-program-converted-into-assembly.png"
+cover:
+    image: /images/How-C-program-converted-into-assembly.png
 ---
 
 In an earlier article, we have seen [C runtime: before starting main](/posts/before-starting-main-c-runtime/) & [How C program stored in RAM memory](/posts/how-c-program-stored-in-ram-memory/). Here we will see "How C program converts into assembly?" and different aspect of its working at the machine level.

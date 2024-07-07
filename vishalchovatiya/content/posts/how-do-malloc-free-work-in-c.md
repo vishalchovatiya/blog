@@ -10,7 +10,8 @@ tags:
   - "program-break"
   - "sbrk"
   - "will-malloc-allocates-contiguously-in-memory-or-it-scattered"
-featuredImage: "/images/How-do-malloc-free-work-vishal-chovatiya.png"
+cover:
+    image: /images/How-do-malloc-free-work-vishal-chovatiya.png
 ---
 
 As we know, the process can allocate & deallocate memory using malloc & free in C language. But do you ever consider what happens behind the scene ? or How do malloc & free work?  Let see

@@ -17,7 +17,8 @@ tags:
   - "template-method-design-pattern-in-modern-c"
   - "what-is-the-difference-between-strategy-template-method-design-pattern"
   - "where-should-we-use-the-template-method-design-pattern"
-featuredImage: "/images/Template-Method-Design-Pattern-in-Modern-C-vishal-chovatiya.png"
+cover:
+    image: /images/Template-Method-Design-Pattern-in-Modern-C-vishal-chovatiya.png
 ---
 
 In software engineering, Behavioural Design Patterns deal with the assignment of responsibilities between objects. And encapsulating behaviour in an object to delegate requests. The Behavioural Design Patterns make the interaction between the objects easy & loosely coupled. In this article of the design pattern series, we're going to take a look at Template Method Design Pattern in Modern C++. It **_allows us to define the skeleton of the algorithm in the base class with concrete implementations defined in derived classes_**.

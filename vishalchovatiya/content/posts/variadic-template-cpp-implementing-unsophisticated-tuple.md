@@ -55,7 +55,8 @@ tags:
   - "variadic-templates-c-example"
   - "variadic-templates-c17"
   - "variadic-templates-example"
-featuredImage: "/images/Cpp-Template-Vishal-Chovatiya.webp"
+cover:
+    image: /images/Cpp-Template-Vishal-Chovatiya.webp
 ---
 
 From C++11, [`std::tuple`](https://en.cppreference.com/w/cpp/utility/tuple) is an incredible expansion to [Modern C++](/posts/21-new-features-of-modern-cpp-to-use-in-your-project/), that offers a fixed-size col­lec­tion of het­ero­ge­neous values. Un­for­tu­nately, tu­ples can be somewhat dubious to manage in a conventional fash­ion. But, subsequently released C++ stan­dard in­tro­duced a few fea­tures & helpers that greatly re­duce the nec­es­sary boil­er­plate. So, in this article, I will explain the variadic template in C++ with the help of unsophisticated tuple implementation. And also walks you through a tricky part of tuple i.e. loop through tuple element. In spite of the fact that I have shrouded the variadic template in my prior article i.e. [C++ Template: A Quick UpToDate Look](/posts/cpp-template-a-quick-uptodate-look/). So, my focus here would be a blend of variadic template & tuple implementation with more up to date C++ gauges.

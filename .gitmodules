@@ -4,3 +4,5 @@
 [submodule "vishalchovatiya/themes/hugo-coder"]
 	path = vishalchovatiya/themes/hugo-coder
 	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "vishalchovatiya/themes/PaperMod"]
+	path = vishalchovatiya/themes/PaperMod

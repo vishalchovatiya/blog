@@ -41,7 +41,8 @@ tags:
   - "where-how-virtual-table-code-augments-by-the-compiler"
   - "why-do-we-need-a-virtual-function"
   - "why-we-need-a-virtual-function"
-featuredImage: "/images/memory-layout-of-C-objects.png"
+cover:
+    image: /images/memory-layout-of-C-objects.png
 ---
 
 "All About Virtual Keyword in C++" is a series of articles(total of three, [PART 1](/posts/part-1-all-about-virtual-keyword-in-cpp-how-virtual-function-works-internally/), [PART 2](/posts/part-2-all-about-virtual-keyword-in-cpp-how-virtual-class-works-internally/), [PART 3](/posts/part-3-all-about-virtual-keyword-in-c-how-virtual-destructor-works/)) describe working of the virtual keyword in different scenarios. This article mostly focuses on "How Does Virtual Function Works Internally?". In other words, How dynamic dispatch done in C++! Although I am not a compiler writer, but this is what I have learned so far from various sources, courses, books & disassembly of C++ program.

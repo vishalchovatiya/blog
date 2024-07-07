@@ -46,7 +46,8 @@ tags:
   - "why-do-we-need-a-virtual-destructor"
   - "why-need-virtual-destructor-c"
   - "why-we-need-a-virtual-destructor"
-featuredImage: "/images/memory-layout-of-C-objects.png"
+cover:
+    image: /images/memory-layout-of-C-objects.png
 ---
 
 Finally, we are in the 3rd & last part of this series. We have already discussed how [virtual function](/posts/part-1-all-about-virtual-keyword-in-cpp-how-virtual-function-works-internally/) & [virtual class/inheritance](/posts/part-2-all-about-virtual-keyword-in-cpp-how-virtual-class-works-internally/) works internally in previous parts. We left one topic i.e. "How Does Virtual Destructor Works?" which we will see now. As usual, before learning anything new I usually start with “Why Do We Need It in the First Place?”

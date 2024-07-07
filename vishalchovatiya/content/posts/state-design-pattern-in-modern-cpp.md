@@ -22,7 +22,8 @@ tags:
   - "state-pattern-c-example"
   - "state-pattern-cpp"
   - "use-cases-of-state-design-pattern"
-featuredImage: "/images/State-Design-Pattern-in-Modern-C-vishal-chovatiya.png"
+cover:
+    image: /images/State-Design-Pattern-in-Modern-C-vishal-chovatiya.png
 ---
 
 A State Design Pattern is a type of Behavioural Design Pattern that defines objects behaviour(defined as a state) based on some event happens. And that can be the internal or external event. For example, if you design an ATM machine using the State Design Pattern, the external event could be someone inserted debit/credit card & internal event could be a user timeout. So in nutshell, the State Design Pattern in Modern C++ is a **_systematic way to implement certain behaviour on a particular event considering the context_**.

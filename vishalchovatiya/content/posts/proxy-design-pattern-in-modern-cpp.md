@@ -21,7 +21,8 @@ tags:
   - "proxy-pattern-c"
   - "virtual-proxy"
   - "what-are-the-use-cases-of-proxy-design-pattern"
-featuredImage: "/images/Proxy-Design-Pattern-in-Modern-C-vishal-chovatiya.png"
+cover:
+    image: /images/Proxy-Design-Pattern-in-Modern-C-vishal-chovatiya.png
 ---
 
 In software engineering, Structural Design Patterns deal with the relationship between objects i.e. how objects/classes interact or build a relationship in a manner suitable to the situation. The Structural Design Patterns simplify the structure by identifying relationships. In this article of the Structural Design Patterns, we're going to take a look at Proxy Design Pattern in C++ which **_dictates the way you access the object_**.

@@ -68,7 +68,8 @@ tags:
   - "use-regex-in-c"
   - "using-regex-c"
   - "validating-email-address-with-regex-hackerrank-c"
-featuredImage: "/images/Regex-C-Regular-Expression.webp"
+cover:
+    image: /images/Regex-C-Regular-Expression.webp
 ---
 
 Regular expressions (or regex in short) is a much-hated & underrated topic so far with Modern C++. But at the same time, correct use of regex can spare you writing many lines of code. If you have spent quite enough time in the industry. And not knowing regex then you are missing out on 20-30% productivity. In that case, I highly recommend you to learn regex, as it is one-time investment(something similar to **_learn once, write anywhere_** philosophy).

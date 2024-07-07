@@ -34,7 +34,8 @@ tags:
   - "what-are-the-advantages-of-using-nullptr"
   - "what-exactly-nullptr-is-in-c"
   - "when-was-nullptr-introduced"
-featuredImage: "/images/What-exactly-nullptr-is-in-C-vishal-chovatiya.png"
+cover:
+    image: /images/What-exactly-nullptr-is-in-C-vishal-chovatiya.png
 ---
 
 The answer to "What exactly nullptr is in C++?" would be a piece of cake for experienced C++ eyes & for those who are aware of [Modern C++](/posts/21-new-features-of-modern-cpp-to-use-in-your-project/) i.e. keyword. But `nullptr` is more than just a keyword in C++ & to explain that, I have written this article. But before jump-into it, we will see issues with `NULL` & then we'll dive into the unsophisticated implementation of  `nullptr` & some use-cases of `nullptr`.

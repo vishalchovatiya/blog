@@ -25,7 +25,8 @@ tags:
   - "launch-and-leave"
   - "when-should-i-use-chain-of-responsibility-design-pattern"
   - "when-to-use-chain-of-responsibility-pattern"
-featuredImage: "/images/Chain-of-Responsibility-Design-Pattern-in-Modern-C-vishal-chovatiya.png"
+cover:
+    image: /images/Chain-of-Responsibility-Design-Pattern-in-Modern-C-vishal-chovatiya.png
 ---
 
 Chain of Responsibility is a Behavioural Design Pattern that **_provides facility to propagate event/request/command/query to the chain of loosely coupled objects_**. Chain of Responsibility Design Pattern in Modern C++ lets you pass requests along a chain of handlers & upon receiving a request, each handler decides either to process the request or to forward it to the next handler in the chain.

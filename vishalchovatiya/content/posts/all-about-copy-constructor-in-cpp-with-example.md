@@ -53,7 +53,8 @@ tags:
   - "use-of-copy-constructor-in-c"
   - "where-copy-constructor"
   - "why-copy-constructor"
-featuredImage: "/images/2-wrong-way-to-learn-copy-assignment-operator-in-c.png"
+cover:
+    image: /images/2-wrong-way-to-learn-copy-assignment-operator-in-c.png
 ---
 
 Do not carry away with the title "All about copy constructor in C++ with example". In this article, I am not going to describe what copy constructor in C++ is. There is plenty of material available for that over the internet. Rather we will discuss why, where & how it used, how compiler synthesizes it for you and in what scenarios it called or not synthesized.

@@ -39,7 +39,8 @@ tags:
   - "when-does-the-move-constructor-and-move-assignment-operator-get-called"
   - "when-is-move-constructor-called-c"
   - "why-do-we-need-move-constructor"
-featuredImage: "/images/20-new-features-of-Modern-C-to-use-in-your-project.png"
+cover:
+    image: /images/20-new-features-of-Modern-C-to-use-in-your-project.png
 ---
 
 In an earlier [article](/posts/understanding-unique-ptr-with-example-in-cpp11/), we have seen how move constructor & move assignment operators helped us in creating our own `unique_ptr`. Here we will use move constructor & assignment operator to implement unsophisticated shared\_ptr.

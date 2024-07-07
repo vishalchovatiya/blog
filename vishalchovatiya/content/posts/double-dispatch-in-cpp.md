@@ -29,7 +29,8 @@ tags:
   - "usecase-of-double-dispatch-mechanism"
   - "visitor-pattern-c"
   - "what-is-double-dispatch-in-c"
-featuredImage: "/images/double-dispatch-in-C-visitor-design-pattern-www_vishalchovatiya_com.png"
+cover:
+    image: /images/double-dispatch-in-C-visitor-design-pattern-www_vishalchovatiya_com.png
 ---
 
 Double Dispatch in C++ is a mechanism that dispatches **_a function call to different concrete functions depending on the runtime types of two objects involved in the call_**.  In more simple words, its function calling using two different virtual tables of respective two objects. I know this sounds cryptic, but don't worry I will come to double dispatch solution after trying most of the naive solution so that you will come away with the full understanding of concept without having needless confusions.

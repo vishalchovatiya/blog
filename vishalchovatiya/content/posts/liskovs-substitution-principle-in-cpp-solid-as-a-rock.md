@@ -31,7 +31,8 @@ tags:
   - "type-safety"
   - "with-factory-pattern"
   - "yardstick-to-craft-liskovs-substitution-principle-friendly-software-in-c"
-featuredImage: "/images/Liskovs-Substitution-Principle-in-C-SOLID-as-a-Rock-vishal-chovatiya.webp"
+cover:
+    image: /images/Liskovs-Substitution-Principle-in-C-SOLID-as-a-Rock-vishal-chovatiya.webp
 ---
 
 So you know how to code in general, understand the object-oriented programming, learned C++, and completed at least one Software Development Course (if you’re not there yet, these articles aren't for you). You can write software easily if you know at least one programming language, but is your code any good? Could it be done any better? Is it clean (and what on earth does that mean)? Is your architecture any good? Should you use a different one? [What about Design Patterns?](/posts/what-is-design-pattern/) These were some of the questions I've had when I started, and answering them helped me to step up to a professional level. Which is why I have written these series SOLID as a Rock design principle. **L**iskov's **S**ubstitution **P**rinciple in C++ is the second principle in this series which I will discuss here.

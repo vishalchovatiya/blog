@@ -18,7 +18,8 @@ tags:
   - "oops"
   - "this-pointer"
   - "where-virtual-table-code-will-be-inserted-c"
-featuredImage: "/images/memory-layout-of-C-objects.png"
+cover:
+    image: /images/memory-layout-of-C-objects.png
 ---
 
 This article is the collection of concept I have acquired while introducing myself to C++ by googling here & there. This material is also not in order. I have just collected the answer to my quick question. And write it down here. But one thing I can assure you is that once you go through this article. You can connect many broken thought of understanding on what runs "Inside the C++ object model". And why people call it as it runs C internally.

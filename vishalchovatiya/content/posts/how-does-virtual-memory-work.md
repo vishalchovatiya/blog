@@ -16,7 +16,8 @@ tags:
   - "virtual-memory-can-slow-down-performancethrashing"
   - "vmm"
   - "why-virtual-memory-used"
-featuredImage: "/images/How-Does-Virtual-Memory-Work-vishalchovatiya.png"
+cover:
+    image: /images/How-Does-Virtual-Memory-Work-vishalchovatiya.png
 ---
 
 Have you ever wondered , How game of size 8 GB is running on a computer has 4 GB of RAM only? or You can play multiple movies simultaneously combined size more than RAM size? If you are a software developer, you may come across a word like multi-tasking or multiprocessing which is key concept behind this. In other words, it creates virtual memory which is a memory management technique. Here we will see how it works

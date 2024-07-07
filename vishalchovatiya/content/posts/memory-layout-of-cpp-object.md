@@ -30,7 +30,8 @@ tags:
   - "vptr"
   - "when-vtable-is-created-in-c"
   - "when-vtable-is-created-in-memory"
-featuredImage: "/images/memory-layout-of-C-objects.png"
+cover:
+    image: /images/memory-layout-of-C-objects.png
 ---
 
 In this article, we will see the memory layout of different C++ Object. And how different storage & access specifiers affect this memory footprint. I am not going to discuss compiler augmented code, name mangling & working of any C++ mechanism related to memory as it is compiler & architecture-dependent. To keep this further simple, I have considered the standard [stack growth direction](/posts/how-c-program-convert-into-assembly/) i.e. downwards. And with the same, data members are represented inverted in memory(thanks to Thomas Vermeilh for pointing that out), that too I have ignored for simplicity. Although if you want to play around with the same, you can refer to this [link](https://godbolt.org/z/NTZ5Z5).

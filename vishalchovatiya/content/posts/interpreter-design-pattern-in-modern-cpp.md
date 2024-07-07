@@ -16,7 +16,8 @@ tags:
   - "what-are-the-design-components-of-interpreter-design-pattern"
   - "what-problems-can-the-interpreter-design-pattern-solve"
   - "what-solution-does-the-interpreter-design-pattern-describe"
-featuredImage: "/images/Interpreter-Design-Pattern-in-Modern-C-vishal-chovatihya.png"
+cover:
+    image: /images/Interpreter-Design-Pattern-in-Modern-C-vishal-chovatihya.png
 ---
 
 Interpreter Design Pattern is a Behavioural Design Pattern which is **_a component that processes structured text data by turning it into separate lexical tokens([lexing](https://stackoverflow.com/questions/2842809/lexers-vs-parsers)) and then interpreting sequences of tokens([parsing](https://stackoverflow.com/questions/2842809/lexers-vs-parsers))_**. In this article, we will see the Interpreter Design Pattern in Modern C++.

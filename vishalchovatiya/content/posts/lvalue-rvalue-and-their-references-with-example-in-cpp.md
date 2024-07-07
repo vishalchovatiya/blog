@@ -17,7 +17,8 @@ tags:
   - "rvalue-reference"
   - "rvalue-reference-c"
   - "rvalue-reference-in-c"
-featuredImage: "/images/20-new-features-of-Modern-C-to-use-in-your-project.png"
+cover:
+    image: /images/20-new-features-of-Modern-C-to-use-in-your-project.png
 ---
 
 This topic might be a piece of cake for every experienced C++ veteran. But I remember back in the days when I was a novice & introducing myself with [Modern C++](/posts/21-new-features-of-modern-cpp-to-use-in-your-project/), I was really irritated by C++ compiler messages saying this is lvalue & that is rvalue kind of jargons. And even if you are not using C++, you may have faced compiler error in C language saying _"lvalue required as left operand of assignment"_.

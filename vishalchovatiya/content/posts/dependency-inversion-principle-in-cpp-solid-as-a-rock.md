@@ -33,7 +33,8 @@ tags:
   - "uncle-bob-dependency-inversion"
   - "when-to-use-dependency-inversion"
   - "yardstick-to-craft-dependency-inversion-principledip-friendly-software-in-c"
-featuredImage: "/images/SOLID-as-a-Rock-Dependency-Inversion-Principle-in-C-Vishal-Chovatiya.webp"
+cover:
+    image: /images/SOLID-as-a-Rock-Dependency-Inversion-Principle-in-C-Vishal-Chovatiya.webp
 ---
 
 **D**ependency **I**nversion **P**rinciple in C++ is the fifth & last design principle of a series SOLID as a Rock design principles. The SOLID design principles focus on developing software that is easy to maintainable, reusable & extendable. In this article, we will see an example code with the flaw & correct it with help of DIP. We will also see guideline & benefits of DIP in closure of the article.

@@ -20,7 +20,8 @@ tags:
   - "facade-pattern-c"
   - "is-facade-a-class-which-contains-a-lot-of-other-classes"
   - "what-is-the-practical-use-case-of-the-facade-design-pattern"
-featuredImage: "/images/Facade-Design-Pattern-in-Modern-Cpp-vishal-chovatiya.png"
+cover:
+    image: /images/Facade-Design-Pattern-in-Modern-Cpp-vishal-chovatiya.png
 ---
 
 Facade Design Pattern is a Structural Design Pattern used **_to provide a unified interface to a complex system_**. It is same as Facade in building architecture, a Facade is an object that serves as a front-facing interface masking a more complex underlying system. A Facade Design Pattern in C++ can:

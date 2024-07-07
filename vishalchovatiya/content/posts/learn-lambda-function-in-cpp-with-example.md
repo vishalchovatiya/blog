@@ -59,7 +59,8 @@ tags:
   - "type-of-lambda-c"
   - "variadic-generic-lambda"
   - "what-is-a-lambda-function"
-featuredImage: "/images/Learn-lambda-function-in-C-with-example.png"
+cover:
+    image: /images/Learn-lambda-function-in-C-with-example.png
 ---
 
 Lambda function is quite an intuitive & widely loved feature introduced in C++11. And, there are tons of articles & tutorials already available on the topic. But, there are very few or none of them touched upon things like IIFE, types of lambda and newer updates on lambda by subsequent standard releases. So, I got the opportunity to fill the blank. I will start this article with what is lambda function! And as we move along will show you how it works internally! & different variations of it. My focus here would be to give you a pragmatic overview. If you are in search of deep dive, I would suggest you read [C++ Lambda Story](https://leanpub.com/cpplambda) by [Bartłomiej Filipek](https://www.linkedin.com/in/bartlomiejfilipek/).

@@ -23,7 +23,8 @@ tags:
   - "when-should-the-strategy-design-pattern-be-used"
   - "when-to-use-strategy-design-pattern"
   - "why-do-we-use-the-strategy-design-pattern"
-featuredImage: "/images/Strategy-Design-Pattern-in-Modern-C-vishal-chovatiya.png"
+cover:
+    image: /images/Strategy-Design-Pattern-in-Modern-C-vishal-chovatiya.png
 ---
 
 In software engineering, Behavioural Design Patterns deal with the assignment of responsibilities between objects which in turn make the interaction between the objects easy & loosely coupled. In this article of the Behavioural Design Pattern series, we're going to take a look at Strategy Design Pattern in Modern C++. It **_allows you to partially specify the behaviour of the class and then augment it later on_**. This pattern is also known as [policy](https://en.wikipedia.org/wiki/Modern_C%2B%2B_Design#Policy-based_design) in many programming languages including especially in the C++ language.

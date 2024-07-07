@@ -21,7 +21,8 @@ tags:
   - "trivial-command-design-pattern-example-in-c"
   - "what-is-the-important-aspect-of-the-command-design-pattern"
   - "what-is-the-reason-behind-using-the-command-design-pattern"
-featuredImage: "/images/Command-Design-Pattern-in-Modern-C-vishal-chovatiya.png"
+cover:
+    image: /images/Command-Design-Pattern-in-Modern-C-vishal-chovatiya.png
 ---
 
 In software engineering, Behavioural Design Patterns deal with the assignment of responsibilities between objects which in turn make the interaction between the objects easy & loosely coupled. In this article of the Behavioural Design Patterns, we're going to take a look at Command Design Pattern in Modern C++ which **_encapsulate all the details related to operation into a separate object_**. Command Design Pattern is widely used in sophisticated software. In fact, you might be using it every day without even knowing that. For example, whenever you press `Ctrl + Z`(i.e. undo/redo), you are likely firing the object arrangements organised as a Command Pattern.

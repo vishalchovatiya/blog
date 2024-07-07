@@ -25,7 +25,8 @@ tags:
   - "what-is-the-common-example-of-the-composite-design-pattern"
   - "what-is-the-difference-between-decorator-composite-design-pattern"
   - "when-should-i-use-the-composite-design-pattern"
-featuredImage: "/images/Composite-Design-Pattern-in-Modern-C-vishal-chovatiya-1.png"
+cover:
+    image: /images/Composite-Design-Pattern-in-Modern-C-vishal-chovatiya-1.png
 ---
 
 [GoF](https://en.wikipedia.org/wiki/Design_Patterns) describes the Composite Design Pattern as “Compose objects into a tree structure to represent part-whole hierarchies. Composite lets the client treat individual objects and compositions of objects uniformly”. This seems over-complicated to me. So, I would not go into tree-leaf kind of jargon. Rather I directly saw you 2 or 3 different ways to implement Composite Design Pattern in Modern C++. But in simple words, the Composite Design Pattern is a Structural Design Pattern with a goal **_to treat the group of objects in the same manner as a single object_**.

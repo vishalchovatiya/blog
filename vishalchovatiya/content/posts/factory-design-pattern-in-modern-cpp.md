@@ -49,7 +49,8 @@ tags:
   - "what-is-the-correct-way-to-implement-the-factory-design-pattern-in-c"
   - "when-to-use-the-factory-design-pattern"
   - "why-do-we-need-an-abstract-factory"
-featuredImage: "/images/Factory-Design-Pattern-in-Modern-C-vishal-chovatiya.webp"
+cover:
+    image: /images/Factory-Design-Pattern-in-Modern-C-vishal-chovatiya.webp
 ---
 
 In software engineering, Creational Design Patterns deal with object creation mechanisms, i.e. try to create objects in a manner suitable to the situation. In addition to this basic or ordinary form of object creation could result in design problems or added complexity to the design. Factory Design Pattern in C++ helps to mitigate this issue by **_creating objects using separate methods or polymorphic classes_**.

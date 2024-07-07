@@ -39,7 +39,8 @@ tags:
   - "try-catch-in-c-example"
   - "try-catch-throw-c"
   - "try-catch-throw-c-example"
-featuredImage: "/images/exception.jpg"
+cover:
+    image: /images/exception.jpg
 ---
 
 Exception handling in C++ is a well-unschooled topic if you observe initial stages of the learning curve. There are numerous tutorials available online on exception handling in C++. But few explains what you should not do & intricacies around it. So here I am to bridge the gap & show you some intricacies, from where & why you should not throw an exception and C++ exception handling best practices. Along with some newer features introduced for exception handling in [Modern C++](/posts/21-new-features-of-modern-cpp-to-use-in-your-project/) with example.

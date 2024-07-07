@@ -29,7 +29,8 @@ tags:
   - "prototype-factory"
   - "prototype-pattern-c"
   - "what-is-the-point-of-using-the-prototype-design-pattern"
-featuredImage: "/images/Prototype-Design-Pattern-in-Modern-C-vishal-chovatiya.webp"
+cover:
+    image: /images/Prototype-Design-Pattern-in-Modern-C-vishal-chovatiya.webp
 ---
 
 Prototype Design Pattern is a Creational Design Pattern that **_helps in the prototyping(creating/copying cheaply) of an object using separate methods or polymorphic classes_**. You can consider the prototype as a [template](/posts/c-template-a-quick-uptodate-look/) of an object before the actual object is constructed. In this article of the Creational Design Patterns, we're going to take a look at why we need a Prototype Design Pattern in C++ i.e. motivation, prototype factory & leveraging prototype design pattern to implement [virtual copy constructor](/posts/7-advanced-cpp-concepts-idiom-examples-you-should-know/#Virtual-Constructor).

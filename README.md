@@ -1,8 +1,13 @@
 ## Useful links
 - Framework for blogging: https://gohugo.io/
-- Theme: https://github.com/luizdepra/hugo-coder
+- 
+- Theme Coder: https://github.com/luizdepra/hugo-coder
     - Blog sample live: https://hugo-coder.netlify.app/
     - Blog sample github repo: https://github.com/luizdepra/hugo-coder/tree/main/exampleSite
+- Theme Paper: https://github.com/adityatelange/hugo-PaperMod
+    - Blog sample live: https://adityatelange.github.io/hugo-PaperMod/
+    - Blog sample github repo: https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite
+    - https://github.com/adityatelange/hugo-PaperMod/discussions
 
 ## Working with Docker & VSCode
 - Note: all these instructions are for windows & tested for windows

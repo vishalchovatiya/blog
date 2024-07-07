@@ -74,7 +74,8 @@ tags:
   - "stl-c-map"
   - "unordered_map-c"
   - "what-if-the-node-with-a-particular-key-does-not-exist"
-featuredImage: "/images/std-map-C.webp"
+cover:
+    image: /images/std-map-C.webp
 ---
 
 [std::map](https://en.cppreference.com/w/cpp/container/map) and its siblings([std::multimap](https://en.cppreference.com/w/cpp/container/multimap), [std::unordered_map](https://en.cppreference.com/w/cpp/container/unordered_map)/[multimap](https://en.cppreference.com/w/cpp/container/unordered_multimap)) used to be my favourite containers when I was doing competitive programming. In fact, I still like them(though using less frequently nowadays). And with [Modern C++](/posts/21-new-features-of-modern-cpp-to-use-in-your-project/), we now have more reasons to use `std::map`. That's why I have decided to address this topic by writing an article summarizing these new features. So, without much gibberish, let's dive-in directly.

@@ -57,7 +57,8 @@ tags:
   - "what-is-interface-segregation-principle"
   - "why-interface-segregation-principle"
   - "yardstick-to-craft-interface-segregation-principle-friendly-software-in-c"
-featuredImage: "/images/Interface-Segregation-Principle-in-C-SOLID-as-a-Rock-vishal-chovatiya.webp"
+cover:
+    image: /images/Interface-Segregation-Principle-in-C-SOLID-as-a-Rock-vishal-chovatiya.webp
 ---
 
 **I**nterface **S**egregation **P**rinciple in C++ is the fourth & by far the simplest design principle of a series SOLID as a Rock design principles. The SOLID design principles focus on developing software that is easy to maintainable, reusable & extendable. In this article, we will see a code violating ISP, a solution to the same code, guideline & benefits of ISP.
