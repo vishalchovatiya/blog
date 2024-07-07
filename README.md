@@ -1,1 +1,12 @@
-# blog
+
+- Framework for blogging: https://gohugo.io/
+- Theme: https://github.com/luizdepra/hugo-coder
+    - Blog sample live: https://hugo-coder.netlify.app/
+    - Blog sample github repo: https://github.com/luizdepra/hugo-coder/tree/main/exampleSite
+- Command to build the site locally
+    - Install hugo version `>= 0.124.0`
+    - Run `hugo server` from dir `blog/vishalchovatiya`
+- Publishing
+    - Build & verify site by `hugo server` & visiting `http://localhost:1313/`
+    - Commit the public dir i.e. actual website vishalchovatiya.github.io.
+    - Update public repo submodule commit in blog repo

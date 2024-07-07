@@ -1,0 +1,8 @@
+{{ $file := .Get 0 }}
+{{ $content := "" }}
+{{ if hasPrefix $file "/" }}
+    {{ $content = readFile $file }}
+{{ else }}
+    {{ $content = readFile (printf "%s%s" .Page.File.Dir $file) }}
+{{ end }}
+{{ $content | replaceRE "^---[\\s\\S]+?---" "" | safeHTML }}
