@@ -40,7 +40,7 @@ By the way, If you haven’t check out my other articles on Structural Design Pa
 
 > **_To treat individual & group of objects in a uniform manner._**
 
-![](/images/Composite-Design-Pattern-in-Modern-C-vishal-chovatiya-2-1.png)
+![](/images/Composite-Design-Pattern-in-Modern-C-vishal-chovatiya-2-1.png#center)
 
 - So what is it all about and why do we need it. Well, we know that objects typically use other objects fields or properties or members through either inheritance or composition.
 - For example, in drawing applications, you have a `Shape`(e.g. `Circle`) that you can draw on the screen but you can also have a group of `Shape`s(e.g. `vector<Circle>`) which inherits from a collection `Shape`.

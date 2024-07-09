@@ -257,4 +257,6 @@ libc.so.6 => /lib64/libc.so.6 (0x00007fdcf3fcd000)
 
 #### Sources
 
-1\. [Autotools](https://www.lrde.epita.fr/~adl/dl/autotools.pdf)2\. [GNU Build System](https://en.wikipedia.org/wiki/GNU_Build_System)3\. [Automake](https://www.gnu.org/software/automake/manual/automake.html)
+1. [Autotools](https://www.lrde.epita.fr/~adl/dl/autotools.pdf)
+2. [GNU Build System](https://en.wikipedia.org/wiki/GNU_Build_System)
+3. [Automake](https://www.gnu.org/software/automake/manual/automake.html)

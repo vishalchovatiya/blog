@@ -36,7 +36,7 @@ At any point, you feel there is some jargons/terminology that is not known to yo
 
 ## What Is Coroutine In General?
 
-![Cpp20-Coroutine-Under-The-Hood](/images/C20-Coroutine-Under-The-Hood.png)
+![Cpp20-Coroutine-Under-The-Hood](/images/C20-Coroutine-Under-The-Hood.png#center)
 
 - Please refer my previous article [Coroutine in C Language](/posts/coroutine-in-c-language) for more.
 

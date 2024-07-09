@@ -39,7 +39,7 @@ WDT comes as an integral part of Microcontrollers/SoCs or you may also get it as
 
 ## Block Diagram
 
-![](/images/watchdog-timer-block-diagram.png)
+![](/images/watchdog-timer-block-diagram.png#center)
 
 - Above figure shows a typical arrangement of external WDT to CPU. 
 - Depending upon vendors & types, Watchdog Timer has numbers of CPU programmable memory-mapped registers.
@@ -93,7 +93,7 @@ main()
 
 ## Window Watchdog Timer
 
-![](/images/window-watchdog-timer-wwdt-vishal-chovatiya.png)
+![](/images/window-watchdog-timer-wwdt-vishal-chovatiya.png#center)
 
 - Window Watchdog Timer not only checks for overrunning. But also look upon underrun condition with the help of two tick count registers rather than one.
 - Start/Low tick count register used to measure start point of window & End/Low used to measure the endpoint of the window.

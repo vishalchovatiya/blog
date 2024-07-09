@@ -70,7 +70,7 @@ Apart from all these, there are many other registers as well which even I don't 
 
 We will consider the following example with its disassembly inlined to understand its different aspect of working at machine level :
 
-![How C program converted into assembly?](/images/How-C-program-converted-into-assembly-1024x441.png)
+![How C program converted into assembly?](/images/How-C-program-converted-into-assembly-1024x441.png#center)
 
 We will focus on a stack frame of the function `func()` But before analysing stack frame of it, we will see how the calling of function happens:
 

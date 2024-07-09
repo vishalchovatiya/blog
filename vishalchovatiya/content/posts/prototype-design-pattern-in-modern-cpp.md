@@ -44,7 +44,7 @@ By the way, If you haven’t check out my other articles on Creational Design Pa
 
 > **_To create a new object cheaply with the help of an already constructed or pre-initialized stored object._**
 
-![](/images/Prototype-Design-Pattern-Cell-Division-Vishal-Chovatiya.png)
+![](/images/Prototype-Design-Pattern-Cell-Division-Vishal-Chovatiya.png#center)
 
 - The prototype provides flexibility to create complex object cheaply. The concept is to copy an existing object rather than creating a new instance from scratch, something that may include costly operations.
 - The existing object then acts as a prototype & newly copied object may change the same properties only if required. This approach saves costly resources and time, especially when the object creation is a heavy process.

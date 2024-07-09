@@ -24,7 +24,7 @@ Have you ever wondered , How game of size 8 GB is running on a computer has 4 GB
 
 ## How Does Virtual Memory Work?
 
-![](/images/How-Does-Virtual-Memory-Work.jpg)
+![](/images/How-Does-Virtual-Memory-Work.jpg#center)
 
 - Let’s say that an OS needs 120 MB of memory in order to hold all the running programs.
 - But there’s currently only 50 MB of available physical memory stored on the RAM chips.

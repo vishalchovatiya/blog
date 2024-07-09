@@ -231,7 +231,7 @@ int main() {
 - So as you can see we have added two-layer of indirection to achieve what we wanted without violating the [Single Responsibility Principle](/posts/single-responsibility-principle-in-cpp-solid-as-a-rock/) & [Open-Closed Principle](/posts/open-closed-principle-in-cpp-solid-as-a-rock/). Thanks to Double Dispatch in C++\[TODO\].
 - If you see all the classes involved in the process, it may seem a bit complicated. But call stack may help you to understand it easily.
 
-![](/images/Double-Dispatch-in-C-Visitor-Design-Pattern-www_vishalhovatiy_com-1024x659.png)
+![](/images/Double-Dispatch-in-C-Visitor-Design-Pattern-www_vishalhovatiy_com-1024x659.png#center)
 
 - From `d->visit(new DocumentPrinter)`, we call `visit()`method, which will dispatch to the appropriate overridden visit i.e. `HTML::visit(DocumentVisitor* dv).
 - From the overridden `HTML::visit(DocumentVisitor*)`, we call `dv->visit(this)`, which will again dispatch to the appropriate overridden method(considering the type of `this` pointer) i.e. `DocumentPrinter::visit(HTML*)`.

@@ -14,10 +14,18 @@ minify:
   disableXML: true
   minifyOutput: true
 
+# https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-faq/#search-not-working-
+outputs: # For search page search.md
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+searchHidden: false
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: Vishal Chovatiya
+  description: "Vishal Chovatiya's personal website"
   keywords: [Blog, Portfolio, PaperMod]
   author: 'Vishal Chovatiya'
   # author: ["Me", "You"] # multiple authors
@@ -30,7 +38,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -45,11 +53,11 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/images/trident_favicon.webp"
+    favicon16x16: "/images/trident_favicon.webp"
+    favicon32x32: "/images/trident_favicon.webp"
+    apple_touch_icon: "/images/trident_favicon.webp"
+    safari_pinned_tab: "/images/trident_favicon.webp"
 
   label:
     text: "Vishal Chovatiya"
@@ -58,31 +66,35 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
+    enabled: true # needs to be explicitly set
+    title: Vishal Chovatiya
+    subtitle: "Geek🤓Hipster👓Fitness Freak💪Always a Student🧑‍🎓Productivity Hacker⌚"
     imageUrl: "images/DP.png"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
+    imageWidth: 180
+    imageHeight: 180
+    imageTitle: DP
     buttons:
-      - name: Posts
+      - name: About Me
+        url: /pages/vishal-chovatiya
+      - name: Latest
         url: posts
-      - name: Tags
-        url: tags
+      # - name: Categories
+        # url: categories
+      - name: Search
+        url: /pages/search
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Hi There...! \U0001F44B"
+    Content: "I am Vishal"
 
   socialIcons:
-    - name: x
-      url: "https://twitter.com/_V_shal"
     - name: linkedin
       url: "https://www.linkedin.com/in/vishal-chovatiya/"
     - name: github
       url: "https://github.com/vishalchovatiya"
+    - name: x
+      url: "https://twitter.com/_V_shal"
 
   analytics:
     google:
@@ -100,7 +112,7 @@ params:
     hiddenInSingle: false # hide on single page
 
   editPost:
-    URL: https://github.com/vishalchovatiya/blog/vishalchovatiya/content
+    URL: https://github.com/vishalchovatiya/blog/blob/main/vishalchovatiya/content
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -136,12 +148,12 @@ menu:
 
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
+PygmentsCodeFences: true
 markup:
   highlight:
     noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: 'github' # isnt working

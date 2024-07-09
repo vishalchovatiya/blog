@@ -30,3 +30,9 @@ Misc: Start existing container either from terminal with below command or by cli
 ```
 docker start -i blog
 ```
+
+## Build/Deploy website for publishing
+```bash
+hugo server -D --baseURL=https://vishalchovatiya.com/ --appendPort=false
+```
+Note: Dont delete the CNAME file from [repo root](https://github.com/vishalchovatiya/vishalchovatiya.github.io), it is required for custom domain

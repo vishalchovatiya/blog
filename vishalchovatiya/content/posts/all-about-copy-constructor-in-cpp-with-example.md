@@ -65,7 +65,7 @@ The simple answer is to copy the data within the same data types, but if you wan
 
 <figure>
 
-![All about copy constructor in C++](/images/copy-constructor-1.png)
+![All about copy constructor in C++](/images/copy-constructor-1.png#center)
 
 <figcaption>
 
@@ -249,5 +249,3 @@ x2.X::X( x0 );
 x3.X::X( x0 );
 // ...
 ```
-
-copy constructor in C++ with example

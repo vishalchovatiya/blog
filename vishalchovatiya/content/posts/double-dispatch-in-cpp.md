@@ -309,7 +309,7 @@ int main() {
 
 I know so things are getting complex, but it is reasonably complex I would say. Function stack frame & single image of function calling chain with code snippet will simplify it a lot.
 
-![](/images/double-dispatch-cpp-stack-frame-vishal-chovatiya.gif)
+![](/images/double-dispatch-cpp-stack-frame-vishal-chovatiya.gif#center)
 
 - From `Person::ReactTo`, we call `Animal::visit`, which will dispatch to the appropriate overridden visit i.e. either `Cat::visit` or `Dog::visit`.
 - From the overridden `Cat::visit(AnimalVisitor*)`, we call `AnimalVisitor::visit`, which will again dispatch to the appropriate overridden i.e. either `ReactionVisitor::visit(Cat*) or `ReactionVisitor::visit(Dog*)`.

@@ -162,7 +162,7 @@ int main()
 ```
 
 - As you can see, there is no easy way to distinguish between the two situations without knowing a lot about all the classes involved.
-- Another problem with the C-style casts is that it is too hard to locate. In complex expressions, it can be very hard to see C-style casts e.g. `T(something) syntax is equivalent to `(T)something`.
+- Another problem with the C-style casts is that it is too hard to locate. In complex expressions, it can be very hard to see C-style casts e.g. `T(something)` syntax is equivalent to `(T)something`.
 
 ### `const_cast`
 
@@ -236,7 +236,7 @@ int main(void)
 
 ### `dynamic_cast`
 
-- `**dynamic_cast**` **uses the type checking at runtime** in contrary to `static_cast` which does it at compile time. `dynamic_cast` is more useful when you don't know the type of input which it represents. Let assume:
+- `dynamic_cast` **uses the type checking at runtime** in contrary to `static_cast` which does it at compile time. `dynamic_cast` is more useful when you don't know the type of input which it represents. Let assume:
 
 ```cpp
 Base* CreateRandom()
@@ -260,14 +260,14 @@ if (pD1){
 ```
 
 - In case, if the input of `dynamic_cast` does not point to valid data, it will return `nullptr` for pointers or throw a `std::bad_cast` exception for references. In order to work with `dynamic_cast`, your classes must be polymorphic type i.e. must include at least one virtual methods.
-- `**dynamic_cast**` **take advantage of** `**RTTI**`([Run Time Type Identification](https://en.wikipedia.org/wiki/Run-time_type_information)) mechanism.
+- `dynamic_cast` take advantage of `RTTI`([Run Time Type Identification](https://en.wikipedia.org/wiki/Run-time_type_information)) mechanism.
 
 ### `reinterpret_cast`
 
 - `reinterpret_cast` **converts between types** by reinterpreting the underlying bit pattern.
 - You can use `reinterpret_cast` to cast any pointer or integral type to any other pointer or integral type.
 - This can lead to dangerous situations: nothing will stop you from converting an `int` to an `std::string*`.
-- You will **use** `reinterpret_cast` **in your embedded systems**. A common scenario where `reinterpret_cast` applies is converting between `uintptr_t` and an actual pointer or between:
+- You will use `reinterpret_cast` in your embedded systems. A common scenario where `reinterpret_cast` applies is converting between `uintptr_t` and an actual pointer or between:
 
 ```cpp
 error: static_cast from 'int *' to 'uintptr_t'

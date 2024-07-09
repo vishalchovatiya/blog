@@ -470,7 +470,7 @@ BENCHMARK(throwing_exception);//-----------------------------------------
 - While in case of exception, the compiler generates a side table that maps any point that may throw an exception (program counter) to the list of handlers. When an exception is thrown, this list consults to pick the right handler (if any) and the stack unwound. See [this](https://monoinfinito.wordpress.com/series/exception-handling-in-c/) for in-depth knowledge.
 - By the way, I am using a [quick benchmark](http://quick-bench.com/qgpMiwVmHomfDmoLsPkb_i-Qw7M) & which internally uses [Google Benchmark](https://github.com/google/benchmark), if you want to explore more.
 
-![](/images/C-exception-bench-mark-without-optimization-1.png)
+![](/images/C-exception-bench-mark-without-optimization-1.png#center)
 
 - First and foremost, remember that using `try` and `catch` doesn't actually decrease performance unless an exception is thrown.
 - It's "zero cost" exception handling; no instruction related to exception handling executes until one is thrown.

@@ -44,7 +44,7 @@ By the way, If you haven’t check out my other articles on Behavioural Design P
 
 ## State Design Pattern Examples in C++
 
-![](/images/State-Design-Pattern-Example-in-C-www_vishalchovatiya_com.png)
+![](/images/State-Design-Pattern-Example-in-C-www_vishalchovatiya_com.png#center)
 
 - Consider the above simple diagram to model three different states along with respective triggers for the transition. We will first see the classical approach where we implement state transition using polymorphism & then move to Modern & Modular approach which involves [std::variant](https://en.cppreference.com/w/cpp/utility/variant) & [std::visit](https://en.cppreference.com/w/cpp/utility/variant/visit).
 

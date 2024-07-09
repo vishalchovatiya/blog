@@ -18,7 +18,7 @@ As we know, the process can allocate & deallocate memory using malloc & free in 
 
 ## Allocating Memory on the Heap
 
-![How do malloc & free work in C](/images/program-break-malloc-free-in-c.png)
+![How do malloc & free work in C](/images/program-break-malloc-free-in-c.png#center)
 
 - A process can allocate memory by increasing the size of the heap.
 - Heap is a variable-size segment of contiguous virtual memory that begins just after the uninitialized data segment of a process and grows & shrinks as memory allocated and freed.

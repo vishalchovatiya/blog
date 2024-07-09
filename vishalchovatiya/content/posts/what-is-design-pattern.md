@@ -39,7 +39,7 @@ So, after taking the online course, YouTube videos, lots of googling, tons compi
 
 ## What Is Design Pattern?
 
-![](/images/Software-Design-Architecture-Stack-1024x628.png)
+![](/images/Software-Design-Architecture-Stack-1024x628.png#center)
 
 From Wikipedia[:](https://en.wikipedia.org/wiki/Software_design_pattern)
 

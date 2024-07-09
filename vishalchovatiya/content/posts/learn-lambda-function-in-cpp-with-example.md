@@ -362,4 +362,3 @@ f(v);
 
 I hope you enjoyed this article. I have tried to cover most of the fundamentals around lambda function with a couple of unsophisticate & small examples. You should use lambda wherever it strikes in your mind considering code expressiveness & easy maintainability. For example, you can use it in custom deleters for smart pointers, to avoid code repetition & with most of the STL algorithms.
 
-Learn lambda function in C++ with example
